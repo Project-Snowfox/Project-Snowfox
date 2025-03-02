@@ -7,3 +7,15 @@ V.0.0.1 - Alpha
 - Added to-do list
 - Added lisence
 - Added Readme
+
+V.0.0.3 - Alpha
+
+- V.0.0.2 主要修改是对Typecho的兼容性，但是试验后发现效果很差，所以暂时放弃，走另一条路线，形成0.0.3
+
+20250301
+- Modified Typecho theme Joe to be native Snowfox theme (typecho(?!\.org))
+- Made Joe the default theme for Snowfox (install.php line 243)
+- Fixed Joe header problem (/usr/themes/Joe-Master/public/header.php line 82-109)
+- Added default values for theme Joe (install.php line 243-311)
+- Changed icon and favicon address to https://cdn.aurorum.co/project-snowfox/theme-joe/img/icon.png and https://cdn.aurorum.co/project-snowfox/theme-joe/img/favicon.png (install.php line 245-246)
+- !!! A bug left: User has to go to theme setting before access their website, otherwise, showing "Database query error" !!!
